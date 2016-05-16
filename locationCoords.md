@@ -1,14 +1,14 @@
-\\ Assignment 2
-\\ location display coordinates and zoom
+// Assignment 2
+// location display coordinates and zoom
 
         var map;
         function initMap() 
-        \\ initialise map not required in cache
+        // initialise map not required in cache
         {
             map = new google.maps.Map(document.getElementById('map'), {
                 center: {lat: -29.2744, lng: 133.7751},
                 zoom: 5
-                \\ Map of Aus full size 
+                // Map of Aus full size 
            });
 
             var melbourne = 
@@ -50,4 +50,4 @@
             center: {lat: -37.9092552, lng: 145.1338553}, 
             zoom: 17
             };
-            \\ location coords and zoom for cache
+            // location coords and zoom for cache
